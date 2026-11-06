@@ -1,4 +1,4 @@
-# 📊 Aplicaciones Prácticas de Arreglos Multidimensionales en Ingeniería
+# Aplicaciones Prácticas de Arreglos Multidimensionales en Ingeniería
 
 Repositorio académico que contiene cinco soluciones desarrolladas en **Python**, enfocadas en la resolución de problemas prácticos de ingeniería mediante el uso de arreglos multidimensionales.
 
