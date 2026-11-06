@@ -1,0 +1,166 @@
+# 📊 Aplicaciones Prácticas de Arreglos Multidimensionales en Ingeniería
+
+Repositorio académico que contiene cinco soluciones desarrolladas en **Python**, enfocadas en la resolución de problemas prácticos de ingeniería mediante el uso de arreglos multidimensionales.
+
+El proyecto aplica estructuras de datos como matrices bidimensionales y tensores tridimensionales, utilizando la biblioteca **NumPy** para realizar operaciones matemáticas, estadísticas y transformaciones matriciales de manera eficiente.
+
+---
+
+## Objetivo del Proyecto
+
+Aplicar los conceptos de arreglos multidimensionales en diferentes escenarios de ingeniería, demostrando cómo las matrices y los tensores permiten organizar, procesar y analizar grandes cantidades de datos.
+
+Además, se busca aprovechar las operaciones vectorizadas de NumPy para optimizar los cálculos y reducir la necesidad de utilizar ciclos anidados tradicionales.
+
+## Requisitos del Entorno
+
+Para ejecutar correctamente los ejercicios, se necesitan las siguientes herramientas:
+
+| Herramienta | Requisito |
+|---|---|
+| Lenguaje | Python 3.8 o superior |
+| Biblioteca matemática | NumPy |
+| Editor de código | Visual Studio Code o similar |
+| Terminal | CMD, PowerShell o terminal integrada |
+
+### Instalación de dependencias
+
+Instalar NumPy mediante el siguiente comando:
+
+```bash
+pip install numpy
+```
+
+También se puede instalar utilizando el archivo de dependencias del proyecto:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+---
+
+## Arquitectura y Estructura del Proyecto
+
+El proyecto está organizado en cinco módulos independientes. Cada archivo desarrolla un problema específico de ingeniería mediante diferentes estructuras multidimensionales.
+
+| Archivo | Problema de ingeniería | Estructura utilizada |
+|---|---|---|
+| `problema1.py` | Análisis de fuerzas estructurales | Matriz bidimensional (3 × 3) |
+| `problema2.py` | Simulación de fluidos 3D | Arreglo tridimensional (3 × 3 × 3 × 4) |
+| `problema3.py` | Análisis de imágenes médicas | Tensor 3D (5 × 4 × 4) |
+| `problema4.py` | Análisis de sensores multivariados | Matriz bidimensional (5 × 5) |
+| `problema5.py` | Transformación de coordenadas | Matrices (N × 2) y (2 × 2) |
+
+### Descripción de los problemas
+
+**1. Análisis de Fuerzas Estructurales**
+
+Se utilizan matrices bidimensionales para representar y analizar las fuerzas aplicadas sobre una estructura. Se realizan operaciones de reducción por ejes (`axis=0` y `axis=1`) para obtener resultados relacionados con el equilibrio estático.
+
+**2. Simulación de Fluidos 3D**
+
+Se emplean arreglos multidimensionales para representar un entorno tridimensional de fluidos. Se consideran diferentes propiedades físicas, como presión, temperatura y velocidad, permitiendo modelar su comportamiento mediante operaciones sobre los datos y propagación por vecindad.
+
+**3. Análisis de Imágenes Médicas**
+
+Se utiliza un tensor tridimensional para representar un conjunto de capas de imágenes. Se implementa un filtrado espacial mediante un kernel de 3 × 3, procesando cada capa para reducir el ruido de alta frecuencia.
+
+**4. Análisis de Sensores Multivariados**
+
+Se implementa una matriz para almacenar mediciones de diferentes sensores a lo largo del tiempo. Se aplican funciones estadísticas de NumPy, como la media (`np.mean`) y la desviación estándar (`np.std`), para analizar los datos por filas y columnas.
+
+**5. Transformación de Coordenadas**
+
+Se utilizan matrices para representar coordenadas y aplicar transformaciones lineales. Mediante la multiplicación matricial (`np.dot`), se modifican las coordenadas originales para obtener nuevas posiciones en el espacio bidimensional.
+
+---
+
+## Enfoque Metodológico y Eficiencia
+
+Las soluciones implementadas priorizan el uso de NumPy para simplificar los cálculos y mejorar el procesamiento de datos multidimensionales.
+
+Los principales enfoques utilizados son:
+
+- **Vectorización de operaciones:** permite realizar cálculos sobre arreglos completos sin depender constantemente de ciclos `for` tradicionales.
+- **Operaciones matriciales:** facilitan la representación y resolución de problemas matemáticos mediante matrices.
+- **Procesamiento multidimensional:** permite organizar información en diferentes dimensiones para representar escenarios físicos y datos complejos.
+- **Funciones estadísticas:** permiten analizar conjuntos de datos mediante cálculos de medias, desviaciones estándar y reducciones por ejes.
+
+El uso de estas técnicas permite escribir código más compacto, legible y eficiente, aprovechando las operaciones optimizadas que proporciona NumPy.
+
+---
+
+## Estructura del Repositorio
+
+```text
+C9T1---Aplicaciones-Practicas-de-Arreglos-Multidimensionales/
+│
+├── problema1.py
+├── problema2.py
+├── problema3.py
+├── problema4.py
+├── problema5.py
+│
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Instalación y Ejecución
+
+Sigue estos pasos para descargar y ejecutar el proyecto en tu computadora.
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/Jerkimy4580/C9T1---Aplicaciones-Pr-cticas-de-Arreglos-Multidimensionales-en-Ingenier-a.git
+```
+
+### 2. Ingresar a la carpeta del proyecto
+
+```bash
+cd C9T1---Aplicaciones-Pr-cticas-de-Arreglos-Multidimensionales-en-Ingenier-a
+```
+
+### 3. Instalar las dependencias
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 4. Ejecutar los ejercicios
+
+Cada problema puede ejecutarse de manera independiente desde la terminal:
+
+```bash
+python problema1.py
+```
+
+```bash
+python problema2.py
+```
+
+```bash
+python problema3.py
+```
+
+```bash
+python problema4.py
+```
+
+```bash
+python problema5.py
+```
+
+**Importante:** No es necesario ejecutar los cinco archivos en un orden específico. Cada módulo funciona de manera independiente.
+
+---
+
+## Tecnologías Utilizadas
+
+- **Python:** lenguaje de programación utilizado para desarrollar las soluciones.
+- **NumPy:** biblioteca especializada en operaciones matemáticas, matriciales y procesamiento de arreglos multidimensionales.
+- **Git y GitHub:** herramientas utilizadas para el control de versiones y almacenamiento del proyecto.
+
+---
